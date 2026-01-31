@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+}
+
+.auth-container {
+  width: 350px;
+  margin: 80px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+}
+
+.auth-container input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #4f46e5;
+  color: white;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.subscribe-btn {
+  background: #16a34a;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.signals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.signal-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
