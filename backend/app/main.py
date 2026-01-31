@@ -15,6 +15,7 @@ app = FastAPI(title="Trading Signals SaaS")
 
 origins = [
     "http://localhost:3000",
+    "https://trading-signals-production.up.railway.app",
 ]
 
 app.add_middleware(
